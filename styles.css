@@ -38,3 +38,14 @@ a:hover {
     color: #E2C391;
     cursor: pointer;
 }
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;  
+}
+
+.main-container p {
+    font-size: 5rem;
+}
