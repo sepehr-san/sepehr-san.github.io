@@ -20,6 +20,7 @@ body {
     width: fit-content;
     padding: 2px;
     background-color: antiquewhite;
+    z-index: 1;
 }
 
 .backtotop a, .backtotop a:active {
@@ -107,7 +108,7 @@ img {
     width: 100%;
 }
 img:hover {
-    filter: contrast(200%);
+    filter: blur(1px);
 }
 
 .shadow {
@@ -145,7 +146,6 @@ img:hover {
 .caption {
     background-color: papayawhip;
     padding: 3px 10px;
-    /* border-radius: 10px; */
 }
 
 .textbox p {
@@ -155,8 +155,12 @@ img:hover {
     margin-bottom: 40px;
     line-height: 1.5;
     background-color: #a52a2a50;
-    /* border-radius: 30px; */
     font-weight: 300;
+}
+
+.parsa .textbox p {
+    background-color: #3a2aa5;
+    color: #b7ffb7;
 }
 
 hr {
