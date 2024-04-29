@@ -31,9 +31,11 @@ body {
 
 .welcome {
     text-align: center;
-    padding-block: 2rem;
+    padding-block: 2.3rem;
     color: #251605;
     padding-inline: 3rem;
+    font-weight: 200;
+    direction: rtl;
 }
 
 .header-links {
@@ -181,4 +183,30 @@ hr {
 
 .textbox p:last-child {
     rotate: 1deg;
+}
+
+.newsbox {
+    width: 80%;
+}
+
+table {
+    margin: 0 auto;
+    direction: rtl;
+    background-color: rgb(0, 255, 81);
+    box-shadow: 5px 5px azure;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: right;
+    padding: 8px;
+}
+
+#table-news {
+    width: 80%;
+}
+
+tr:not(:last-of-type) {
+    border-bottom: 2px solid #2aa53852;
+    border-width: 80%;
 }
